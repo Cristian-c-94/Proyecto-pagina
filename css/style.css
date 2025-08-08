@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: green;
+}
+
+
+/*========================== INDEX Y SITIOS WEBS ===============*/
+
+h1 {
+    color: rgb(37, 37, 177);
+    text-align: center;
+}
+
+h2 {
+    text-align: center
+}
+
+.listado {
+    text-align: center;
+    padding: 1rem;
+}
+
+p {
+    text-align: center;
+    padding: 1rem;
+    margin: 1px;
+    font-size: 25px;
+}
+
+.contenedor-proyectos {
+    text-align: center;
+}
+
+/*========================== CONTACTO ============================*/
+
+.formulario {
+    text-align: center;
+}
+
+
+/*========================== FOOTER ============================*/
+
+.footer {
+    background-color: rgb(122, 122, 233);
+    padding: 1rem;
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+}
