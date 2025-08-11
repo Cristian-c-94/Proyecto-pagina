@@ -22,7 +22,18 @@ h2 {
 
 .listado {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+    list-style: none;
+    margin: 25px;
+    background: white;
+    border-radius: 90px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    gap: 2rem; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 p {
@@ -40,6 +51,11 @@ p {
 
 .formulario {
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex: 1;
+    font-size:x-large;
 }
 
 
