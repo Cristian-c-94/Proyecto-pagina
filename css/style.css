@@ -67,7 +67,7 @@ p {
     width: 10%;
     height: 30px;
     margin-top: 20px;
-    
+
 }
 
 
@@ -90,7 +90,7 @@ p {
 
 
 #mensaje {
-     margin-top: 20px;
+    margin-top: 20px;
 }
 
 #mensaje:focus {
@@ -112,12 +112,9 @@ p {
 
 
 
-
-
 @media (max-width: 767px) {
     body {
         background-color: green;
     }
-
 
 }
