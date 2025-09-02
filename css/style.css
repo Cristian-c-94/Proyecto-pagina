@@ -98,6 +98,39 @@ p {
     transition: 0.4s ease;
 }
 
+/* ========================== ESTILO DE PROYECTOS ========================== */
+
+#lista-proyectos div {
+    text-align: center;
+    padding: 2rem;
+    list-style: none;
+    margin: 25px;
+    background: white;
+    border-radius: 90px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#lista-tecnologias div {
+    text-align: center;
+    padding: 2rem;
+    list-style: none;
+    margin: 25px;
+    background: white;
+    border-radius: 90px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
 
 /*========================== FOOTER ============================*/
@@ -109,7 +142,6 @@ p {
     text-align: center;
     font-size: 20px;
 }
-
 
 
 @media (max-width: 767px) {
