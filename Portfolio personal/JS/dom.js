@@ -2,6 +2,16 @@ const listaProyectos = document.querySelector("#lista-proyectos");
 
 const tecnologiasAprendidas = document.querySelector("#lista-tecnologias");
 
-listaProyectos.innerHTML = generarListaProyectos();
+const infoPersonal = document.querySelector("#informacion-personal");
 
-tecnologiasAprendidas.innerHTML = generarListaTecnologias();
+if (listaProyectos) {
+    listaProyectos.innerHTML = generarListaProyectos();
+}
+
+if (tecnologiasAprendidas){
+    tecnologiasAprendidas.innerHTML = generarListaTecnologias();
+}
+
+if(infoPersonal){
+    infoPersonal.innerHTML = generarAbout();
+}
