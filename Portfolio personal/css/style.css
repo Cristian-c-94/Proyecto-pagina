@@ -116,6 +116,12 @@ p {
     flex-direction: column;
 }
 
+#lista-proyectos div:hover {
+    box-shadow: 0 8px 100px rgb(250, 46, 46);
+    transition: 0.5s ease;
+    transform: translateY(-5px)
+}
+
 #lista-tecnologias div {
     text-align: center;
     padding: 2rem;
@@ -132,6 +138,33 @@ p {
     flex-direction: column;
 }
 
+#lista-tecnologias div:hover {
+    box-shadow: 0 8px 100px rgb(250, 46, 46);
+    transition: 0.5s ease;
+    transform: translateY(-5px)
+}
+
+#informacion-personal div {
+    text-align: center;
+    padding: 2rem;
+    list-style: none;
+    margin: 25px;
+    background: white;
+    border-radius: 90px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#informacion-personal div:hover {
+    box-shadow: 0 8px 100px rgb(250, 46, 46);
+    transition: 0.5s ease;
+    transform: translateY(-5px)
+}
 
 /*========================== FOOTER ============================*/
 

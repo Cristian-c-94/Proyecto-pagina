@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
 
-    <main>
-        <h1>Contacto</h1>
-        <p>¡Hola! Por favor a continuación escriba su nombre, su mensaje y le responderé a la brevedad. 😁</p>
 
-        <div class="formulario">
-    <form action="">
-      <div>
-        <label for="nombre"> Nombre:</label>
-        <input type="text" name="nombre" id="nombre" />
+  <main>
+    <h1>Contacto</h1>
+    <p>¡Hola! Por favor a continuación escriba su nombre, su mensaje y le responderé a la brevedad. 😁</p>
+
+    <section>
+
+      <div class="formulario">
+
+        <div>
+          <label for="nombre"> Nombre:</label>
+          <input type="text" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+
+        <div>
+          <label for="email"> Email: </label>
+          <input type="text" name="email" id="asunto" placeholder="Ingrese su email" />
+        </div>
+        <div>
+          <label for="mensaje"> Mensaje:</label>
+          <textarea name="mensaje" id="mensaje" placeholder="Ingrese su mensaje"></textarea>
+        </div>
+        <div class="boton">
+          <button type="submit">Enviar
+        </div>
       </div>
 
-      <div>
-        <label for= "asunto"> Asunto: </label>
-        <input type= "text" name= "asunto" id= "asunto" />
-        
-      </div>
-      <div>
-        <label for="mensaje"> Mensaje:</label>
-        <textarea name="mensaje" id="mensaje"></textarea>
-      </div>
-      <div class="boton">
-        <button type= "submit" >Enviar</div>
-           </div>
+    </section>
 </body>
+
+<script src="JS/funciones.js"></script>
+<script src="JS/datos.js"></script>
+<script src="JS/dom.js"></script>
+
+
+
+
+
 </html>
